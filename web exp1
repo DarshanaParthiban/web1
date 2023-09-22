@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ICE</title>
+</head>
+<body bgcolor="#00FFFF">
+<h1><center>ICE CREAM SHOP</center> </h1>
+<center><h2>welcomes you all </h2></center>
+<img src="C:\Users\Dell\Downloads/ice.jpg" alt="image here" width="400" height="400"><br>
+<a href="mailto:ice@gmail.com">icecream</a>
+<h3>DESCRIPTION:</h3>
+
+<p>Ice cream is a <q><b>frozen dessert</b></q> typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit, such as <b><i> strawberries or peaches</i></b>.</p>
+
+<p>a rich, sweet, creamy frozen food made from <q><b>variously flavored cream</b></q> and milk products churned or stirred to a smooth consistency during the freezing process and often containing <b><i>gelatin, eggs, fruits, nuts,</i></b> etc.</p>
+
+<h4>FLAVOURS:</h4>
+<ul>
+<li>vennila</li>
+<li>strawberry</li>
+<li>pista</li>
+<li>chocolate</li>
+<li>twins</li>
+</ul>
+<h5>TABLE OF CONTENTS: </h5>
+<table border="1">
+<colgroup>
+<col span="2" bgcolor="pink">
+<col bgcolor="yellow">
+</colgroup>
+<rowgroup>
+<row span="1" bgcolor="black">
+</rowgroup>
+<head>
+<tr>
+<th>S.no</th>
+<th>Product</th>
+<th>No.of pieces</th>
+</tr>
+</head>
+<body>
+<tr>
+<td>1</td>
+<td>vennila</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>strawberry</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3</td>
+<td>pista</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4</td>
+<td>chocolate</td>
+<td>7</td>
+</tr>
+<tr>
+<td>5</td>
+<td>twins</td>
+<td>7</td>
+</tr>
+</body>
+</table>
+<table border="1>
+<head>
+<tr>
+<th>name</th>
+<th>email</th>
+<th colspan="2">CONTACT</th>
+</tr>
+</head>
+<body>
+<tr>
+<td>ziva</td>
+<td>ziva@gmail.com</td>
+<td>00</td>
+<td>5556677700</td>
+</tr>
+</body>
+</table>
+<form action="">
+<fieldset>
+<legend>melting ice</legend>
+<label>choose your fav: </label><br>
+<input type="checkbox" id="vennila" name="vennila" value=" ">
+<label>vennila</label><br>
+<input type="checkbox" id="pista" name="pista" value=" ">
+<label>pista</label><br><br>
+<input type="submit" value="submit"></fieldset><br>
+<label for="">Comment</label><br>
+<textarea name="Comment" id="Comment" placeholder="hello" cols="45" rows="7" ></textarea><br>
+<h3>ORDER DETAILS</h3>
+First name:<br>
+<input type="text" id="fname" name="fname" placeholder="firstname"><br><br>
+Last name:<br>
+<input type="text" id="lname" name="lname" placeholder="lastname"><br><br>
+Phone number:<br>
+<input type="number" id="number" name="number"<br><br><br>
+Password:<br>
+<input type="password" id="password" name="password" placeholder="password"><br><br>
+Email:<br>
+<input type="email" id="email" name="email" placeholder="email"><br><br>
+Gender:<br>
+<input type="radio" name="Gender" id="male" value="Male">
+<label>MALE</label>
+<input type="radio" name="Gender" id="female" value="Female">
+<label>FEMALE</label><br><br>
+<label>STATE</label>
+<select name="State" placeholder="State" id="State">
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="k">Kerala</option>
+<option value="k">Karnataka</option>
+ </select><br><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
